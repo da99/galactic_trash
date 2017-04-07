@@ -1,0 +1,27 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    htmlentities (4.3.4)
+    mustache (1.0.5)
+    passenger (5.1.2)
+      rack
+      rake (>= 0.8.1)
+    rack (2.0.1)
+    rake (12.0.0)
+    roda (2.24.0)
+      rack
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  htmlentities
+  mustache
+  passenger
+  roda
+
+RUBY VERSION
+   ruby 2.4.1p111
+
+BUNDLED WITH
+   1.14.6
