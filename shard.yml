@@ -1,0 +1,13 @@
+name: galactic_trash
+version: 0.1.0
+
+authors:
+  - da99 <i-hate-spam-1234567@mailinator.com>
+
+targets:
+  galactic_trash:
+    main: src/galactic_trash.cr
+
+crystal: 0.21.1
+
+license: MIT
