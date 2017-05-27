@@ -8,6 +8,10 @@ shards:
     github: jeromegn/kilt
     version: 0.3.3
 
+  mu-html:
+    github: da99/mu-html
+    commit: 668d3b217ab588a8d5a42109bdfaedf640a46272
+
   radix:
     github: luislavena/radix
     version: 0.3.8

@@ -8,11 +8,14 @@ targets:
   galactic_trash:
     main: src/galactic_trash.cr
 
-crystal: 0.21.1
+crystal: 0.22.0
 
 license: MIT
 
 dependencies:
+  mu-html:
+    github: da99/mu-html
+    branch: master
   kemal:
     github: kemalcr/kemal
     branch: master

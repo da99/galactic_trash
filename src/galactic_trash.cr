@@ -1,5 +1,6 @@
 # require "./galactic_trash/*"
 require "kemal"
+require "mu-html"
 require "json"
 
 serve_static false
@@ -14,7 +15,7 @@ get "/json" do | env |
 end
 
 get "/hello" do
-  "Hello, World!"
+  "Hello, #{Mu_Html}!"
 end
 
 Kemal.run
